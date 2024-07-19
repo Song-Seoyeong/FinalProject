@@ -19,7 +19,7 @@ header{
 	float: left;
 	background-color: #657C8D;
 	width: 15%;
-	height: 100%;
+	height: 845px;
 }
 
 .board-list-ul{
@@ -27,12 +27,23 @@ header{
 }
 
 .board-list-ul>li{
-	margin-bottom: 15px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	
+}
+
+.board-list-ul a{
+	color: black;
+	text-decoration: none;
 }
 
 .select-board{
 	font-size: 25px;
 	font-weight: bold;
+	margin: 17px 0 !important;
+	padding: 0 !important;
 }
 
 .out-adminPage{
@@ -42,6 +53,10 @@ header{
 .out-text{
 	margin-left: 33px;
 	color: white;
+	text-decoration: none;
+}
+.out-text:hover{
+	text-decoration: underline;
 }
 
 .board-main{
@@ -53,8 +68,8 @@ header{
 	margin-left: 50px;
 }
 
-.display-inline{
-	display: inline-block;	
+.display-flex{
+	display: flex;	
 }
 
 .container-top{
@@ -66,14 +81,55 @@ header{
 .enter-container{
 	width: 60%;
 	height: 90%;
+	align-items: center;
 }
 
-.title-enter{
+.title-div{
 	font-weight: bold;
 	border-bottom: 1px solid black;
 }
 
-.enter-text{
+.title-text{
 	padding-left: 10px;
 	font-size: 25px;
+}
+
+.content-enter{
+	margin: 10px auto 0;
+	width: 95%;
+	height: 300px;
+	border: 1px solid lightgray;
+}
+
+.user-container{
+	margin-left: 100px;
+	align-items: flex-center;
+	width: 20%;
+}
+
+.content-user{
+	width: 95%;
+	margin: 5px auto 0;
+}
+
+.table-user{
+	border: none !important;
+	width: 95% !important;
+	height: 98%;
+	margin: 0 auto !important;
+	text-align: center;
+}
+
+.table-user td{
+	border: none;
+}
+
+.tr-user{
+	border-top: 1px solid #96caf0;
+}
+
+.td-user{
+	border-left: thick double #96caf0 !important;
+	border-right: 1px solid #96caf0 !important;
+	border-right-width: 80%;
 }
