@@ -24,3 +24,8 @@
 	margin-left: 80px;
 	width: 70%;
 }
+
+.list-table{
+	height: 650px;
+	overflow-y: scroll;
+}
