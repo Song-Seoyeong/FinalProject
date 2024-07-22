@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.container-quest{
+	display: flex;
+	margin-top: 40px;
+	min-width: 1450px;
+}
+
+.sum-quest{
+	width: 15%;
+	margin-left: 55px;
+}
+
+.quest-table{
+	margin-top: 5px;
+}
+
+.no-answer{
+	color: red;
+	font-weight: bold;
+}
+
+.list-quest{
+	margin-left: 80px;
+	width: 70%;
+}
