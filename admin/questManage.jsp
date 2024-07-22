@@ -60,6 +60,35 @@
 					<div class="title-div">
 						<span class="title-text">문의사항 리스트</span>
 					</div>
+					<div class="quest-table rounded-2 list-table">
+						<table class="table-user table">
+							<thead>
+								<tr style="border-bottom: 1px solid #96caf0; border-bottom-width: medium;">
+									<th style="width: 10%;">번호</th>
+									<th style="width: 50%;">제목</th>
+									<th style="width: 10%;">이름</th>
+									<th style="width: 18%;">날짜</th>
+									<th style="width: 15%;">응답 여부</th>
+								</tr>
+							</thead>
+						  	<tbody>
+						  		<tr class="tr-user">
+						      		<td>2</td>
+						      		<td>결제 관련 문의 보냅니다.</td>
+						      		<td>가가가</td>
+									<td>2024.07.22</td>
+									<td><span class="no-answer">미응답</span></td>
+						  		</tr>
+						  		<tr class="tr-user">
+						      		<td>1</td>
+						      		<td>1000포인트는 결제창에 없나요</td>
+						      		<td>나나나</td>
+									<td>2024.07.18</td>
+									<td>응답</td>
+						  		</tr>
+						  	</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
