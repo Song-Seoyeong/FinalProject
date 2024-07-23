@@ -20,6 +20,18 @@
 	border-right: 1px solid #96caf0 !important;
 }
 
+.table_hover{
+	cursor: pointer;
+}
+
+.overflow-ell{
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
 .title-div{
 	font-weight: bold;
 	border-bottom: 1px solid #2F6598;
@@ -58,5 +70,6 @@
 
 .box-shadow-none:focus{
 	box-shadow: none !important;
-	border: var(--bs-border-width) solid var(--bs-border-color);
+	border: 1px solid #dee2e6 !important;
+	border-radius: 0;
 }

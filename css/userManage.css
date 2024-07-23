@@ -22,5 +22,5 @@
 
 .list-table{
 	height: 650px;
-	overflow-y: scroll;
+	overflow-y: auto;
 }

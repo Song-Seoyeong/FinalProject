@@ -2,7 +2,7 @@
 
 .container-top{
 	height: 11%;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-left: 55px;
 	min-width: 1450px;
 }
@@ -25,7 +25,7 @@
 
 .list-table{
 	height: 440px;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .content-list{
@@ -55,8 +55,8 @@
 }
 
 .content-add:hover{
-	background: white;
-	color: lightgray;
+	background: #2F6598 !important;
+	color: white !important;
 }
 
 .form-container{

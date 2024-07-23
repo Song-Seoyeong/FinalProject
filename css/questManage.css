@@ -21,11 +21,126 @@
 }
 
 .list-quest{
-	margin-left: 80px;
-	width: 70%;
+	margin-left: 40px;
+	width: 45%;
 }
 
 .list-table{
 	height: 650px;
-	overflow-y: scroll;
+	overflow-y: auto;
+}
+
+.detail-quest{
+	width: 45%;
+	margin-left: 40px;
+	margin-right: 15px;
+}
+
+.quest-detail{
+	width: 95%;
+	margin: 5px auto 0;
+	height: 650px;
+	border: 1px solid white;
+	background: lightgray;
+	text-align: center;
+}
+
+.title-div-quest{
+	width: 90%;
+	margin: 20px auto 0;
+	font-size: 20px;
+	border-bottom: 1px solid #2F6598;
+	padding-left: 10px;
+}
+
+.quest-detail-div{
+	width: 87%;
+	margin: 5px auto 0;
+	height: 250px;
+	border: 1px solid #2F6598;
+}
+
+.quest-textarea{
+	border: none;
+	resize: none;
+	border-radius: 0 !important;
+}
+
+.title-div-answer{
+	width: 90%;
+	margin: 20px auto 0;
+	font-size: 20px;
+	border-bottom: 1px solid #2F6598;
+	padding-left: 10px;
+}
+
+.answer-detail-div{
+	width: 87%;
+	margin: 5px auto 0;
+	height: 200px;
+	border: 1px solid #2F6598;
+}
+
+.answer-reg{
+	background: white !important;
+	margin-top: 15px;
+}
+
+.answer-reg:hover{
+	background: #2F6598 !important;
+	color: white !important;
+}
+
+.title-text-icon{
+	float: right; 
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+
+/* 적용이 안돼서 넣음 */
+
+.board-list{
+	float: left;
+	background-color: #657C8D;
+	width: 15%;
+	height: 845px;
+	min-width: 282px;
+}
+
+.board-list-ul{
+	list-style-type: none;
+	width: 70%;
+}
+
+.board-list-ul>li{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.board-list-ul a{
+	color: black;
+	text-decoration: none;
+}
+
+.select-board{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 17px 0 !important;
+	padding: 0 !important;
+}
+
+.out-adminPage{
+	margin-top: 430px;
+}
+
+.out-text{
+	margin-left: 33px;
+	color: white;
+	text-decoration: none;
+}
+.out-text:hover{
+	text-decoration: underline;
 }
